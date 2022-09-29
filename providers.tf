@@ -7,7 +7,6 @@ terraform {
   }
 }
 
-provider "aws"{
-    region = "us-east-1"
-    profile = "impacta"
+provider "aws" {
+  region = "us-east-1"
 }
